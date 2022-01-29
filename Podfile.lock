@@ -1,0 +1,20 @@
+PODS:
+  - Alamofire (5.5.0)
+  - CAPageView (1.1.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.5)
+  - CAPageView
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - CAPageView
+
+SPEC CHECKSUMS:
+  Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
+  CAPageView: 5673c3b97b9e03e035457c63494e4390e7a66ece
+
+PODFILE CHECKSUM: 0e8707aec645d62fafca6a4521d748f1eb2a1157
+
+COCOAPODS: 1.11.2

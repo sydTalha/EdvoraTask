@@ -1,0 +1,6 @@
+framework module Pods_EdvoraTask {
+  umbrella header "Pods-EdvoraTask-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		653DB1FE27A29F3600B99C04 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653DB1FD27A29F3600B99C04 /* ProductModel.swift */; };
+		653DB20027A2A38700B99C04 /* ProductListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653DB1FF27A2A38700B99C04 /* ProductListRow.swift */; };
+		653DB20227A2A4BD00B99C04 /* ProductRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653DB20127A2A4BD00B99C04 /* ProductRow.swift */; };
+		653EF4F627A161FC00E87944 /* EdvoraTaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653EF4F527A161FC00E87944 /* EdvoraTaskApp.swift */; };
+		653EF4F827A161FC00E87944 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653EF4F727A161FC00E87944 /* ContentView.swift */; };
+		653EF4FA27A161FE00E87944 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 653EF4F927A161FE00E87944 /* Assets.xcassets */; };
+		653EF4FD27A161FE00E87944 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 653EF4FC27A161FE00E87944 /* Preview Assets.xcassets */; };
+		65CD679427A52CD300ABB969 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CD679327A52CD300ABB969 /* Constants.swift */; };
+		65D69F1327A30AE300618405 /* FilterPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D69F1227A30AE200618405 /* FilterPopup.swift */; };
+		65F34BBE27A48D4A00BFBA87 /* FilterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F34BBD27A48D4A00BFBA87 /* FilterModel.swift */; };
+		65F34BC227A49B7F00BFBA87 /* FilterPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F34BC127A49B7F00BFBA87 /* FilterPicker.swift */; };
+		65F7C3CB27A43131005F15F4 /* ProductsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F7C3CA27A43131005F15F4 /* ProductsViewModel.swift */; };
+		93BE31AF2F112E1E0138543B /* Pods_EdvoraTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DB32960A72DA5FCBBE1C08F /* Pods_EdvoraTask.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5DB32960A72DA5FCBBE1C08F /* Pods_EdvoraTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EdvoraTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DBCAE150488BB3802C37817 /* Pods-EdvoraTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EdvoraTask.release.xcconfig"; path = "Target Support Files/Pods-EdvoraTask/Pods-EdvoraTask.release.xcconfig"; sourceTree = "<group>"; };
+		653DB1FD27A29F3600B99C04 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		653DB1FF27A2A38700B99C04 /* ProductListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListRow.swift; sourceTree = "<group>"; };
+		653DB20127A2A4BD00B99C04 /* ProductRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRow.swift; sourceTree = "<group>"; };
+		653EF4F227A161FC00E87944 /* EdvoraTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EdvoraTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		653EF4F527A161FC00E87944 /* EdvoraTaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdvoraTaskApp.swift; sourceTree = "<group>"; };
+		653EF4F727A161FC00E87944 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		653EF4F927A161FE00E87944 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		653EF4FC27A161FE00E87944 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6540E26E27A3D65300FD6C13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		65CD679327A52CD300ABB969 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		65D69F1227A30AE200618405 /* FilterPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterPopup.swift; sourceTree = "<group>"; };
+		65F34BBD27A48D4A00BFBA87 /* FilterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterModel.swift; sourceTree = "<group>"; };
+		65F34BC127A49B7F00BFBA87 /* FilterPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterPicker.swift; sourceTree = "<group>"; };
+		65F7C3CA27A43131005F15F4 /* ProductsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewModel.swift; sourceTree = "<group>"; };
+		C42964C2AE014E82335B96F3 /* Pods-EdvoraTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EdvoraTask.debug.xcconfig"; path = "Target Support Files/Pods-EdvoraTask/Pods-EdvoraTask.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		653EF4EF27A161FC00E87944 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93BE31AF2F112E1E0138543B /* Pods_EdvoraTask.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3234E0842A281AF90701B75D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C42964C2AE014E82335B96F3 /* Pods-EdvoraTask.debug.xcconfig */,
+				5DBCAE150488BB3802C37817 /* Pods-EdvoraTask.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		653DB1FC27A29F1D00B99C04 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				653DB1FD27A29F3600B99C04 /* ProductModel.swift */,
+				65F34BBD27A48D4A00BFBA87 /* FilterModel.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		653EF4E927A161FC00E87944 = {
+			isa = PBXGroup;
+			children = (
+				653EF4F427A161FC00E87944 /* EdvoraTask */,
+				653EF4F327A161FC00E87944 /* Products */,
+				3234E0842A281AF90701B75D /* Pods */,
+				C982941BE329726A2D2AD60D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		653EF4F327A161FC00E87944 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				653EF4F227A161FC00E87944 /* EdvoraTask.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		653EF4F427A161FC00E87944 /* EdvoraTask */ = {
+			isa = PBXGroup;
+			children = (
+				65CD679227A52CC500ABB969 /* Helpers */,
+				65CD678F27A52A7800ABB969 /* views */,
+				65F7C3C927A430DC005F15F4 /* viewModels */,
+				653DB1FC27A29F1D00B99C04 /* models */,
+				6540E26E27A3D65300FD6C13 /* Info.plist */,
+				653EF4F527A161FC00E87944 /* EdvoraTaskApp.swift */,
+				653EF4F927A161FE00E87944 /* Assets.xcassets */,
+				653EF4FB27A161FE00E87944 /* Preview Content */,
+			);
+			path = EdvoraTask;
+			sourceTree = "<group>";
+		};
+		653EF4FB27A161FE00E87944 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				653EF4FC27A161FE00E87944 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		65CD678F27A52A7800ABB969 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				65CD679127A52B2700ABB969 /* ProductsMain */,
+				65CD679027A52A8700ABB969 /* Filters */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		65CD679027A52A8700ABB969 /* Filters */ = {
+			isa = PBXGroup;
+			children = (
+				65D69F1227A30AE200618405 /* FilterPopup.swift */,
+				65F34BC127A49B7F00BFBA87 /* FilterPicker.swift */,
+			);
+			path = Filters;
+			sourceTree = "<group>";
+		};
+		65CD679127A52B2700ABB969 /* ProductsMain */ = {
+			isa = PBXGroup;
+			children = (
+				653EF4F727A161FC00E87944 /* ContentView.swift */,
+				653DB1FF27A2A38700B99C04 /* ProductListRow.swift */,
+				653DB20127A2A4BD00B99C04 /* ProductRow.swift */,
+			);
+			path = ProductsMain;
+			sourceTree = "<group>";
+		};
+		65CD679227A52CC500ABB969 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				65CD679327A52CD300ABB969 /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		65F7C3C927A430DC005F15F4 /* viewModels */ = {
+			isa = PBXGroup;
+			children = (
+				65F7C3CA27A43131005F15F4 /* ProductsViewModel.swift */,
+			);
+			path = viewModels;
+			sourceTree = "<group>";
+		};
+		C982941BE329726A2D2AD60D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5DB32960A72DA5FCBBE1C08F /* Pods_EdvoraTask.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		653EF4F127A161FC00E87944 /* EdvoraTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 653EF50027A161FE00E87944 /* Build configuration list for PBXNativeTarget "EdvoraTask" */;
+			buildPhases = (
+				498A5229B17F192A7B77315C /* [CP] Check Pods Manifest.lock */,
+				653EF4EE27A161FC00E87944 /* Sources */,
+				653EF4EF27A161FC00E87944 /* Frameworks */,
+				653EF4F027A161FC00E87944 /* Resources */,
+				DCD742C3B6AC3F45F5287932 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EdvoraTask;
+			productName = EdvoraTask;
+			productReference = 653EF4F227A161FC00E87944 /* EdvoraTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		653EF4EA27A161FC00E87944 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					653EF4F127A161FC00E87944 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 653EF4ED27A161FC00E87944 /* Build configuration list for PBXProject "EdvoraTask" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 653EF4E927A161FC00E87944;
+			productRefGroup = 653EF4F327A161FC00E87944 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				653EF4F127A161FC00E87944 /* EdvoraTask */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		653EF4F027A161FC00E87944 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				653EF4FD27A161FE00E87944 /* Preview Assets.xcassets in Resources */,
+				653EF4FA27A161FE00E87944 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		498A5229B17F192A7B77315C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EdvoraTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCD742C3B6AC3F45F5287932 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EdvoraTask/Pods-EdvoraTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EdvoraTask/Pods-EdvoraTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EdvoraTask/Pods-EdvoraTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		653EF4EE27A161FC00E87944 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				653DB20027A2A38700B99C04 /* ProductListRow.swift in Sources */,
+				653EF4F827A161FC00E87944 /* ContentView.swift in Sources */,
+				65F7C3CB27A43131005F15F4 /* ProductsViewModel.swift in Sources */,
+				65F34BBE27A48D4A00BFBA87 /* FilterModel.swift in Sources */,
+				65D69F1327A30AE300618405 /* FilterPopup.swift in Sources */,
+				65CD679427A52CD300ABB969 /* Constants.swift in Sources */,
+				653DB20227A2A4BD00B99C04 /* ProductRow.swift in Sources */,
+				653DB1FE27A29F3600B99C04 /* ProductModel.swift in Sources */,
+				65F34BC227A49B7F00BFBA87 /* FilterPicker.swift in Sources */,
+				653EF4F627A161FC00E87944 /* EdvoraTaskApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		653EF4FE27A161FE00E87944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		653EF4FF27A161FE00E87944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		653EF50127A161FE00E87944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C42964C2AE014E82335B96F3 /* Pods-EdvoraTask.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EdvoraTask/Preview Content\"";
+				DEVELOPMENT_TEAM = LFD3T7L2TV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EdvoraTask/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.edvora.EdvoraTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		653EF50227A161FE00E87944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DBCAE150488BB3802C37817 /* Pods-EdvoraTask.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EdvoraTask/Preview Content\"";
+				DEVELOPMENT_TEAM = LFD3T7L2TV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EdvoraTask/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.edvora.EdvoraTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		653EF4ED27A161FC00E87944 /* Build configuration list for PBXProject "EdvoraTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				653EF4FE27A161FE00E87944 /* Debug */,
+				653EF4FF27A161FE00E87944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		653EF50027A161FE00E87944 /* Build configuration list for PBXNativeTarget "EdvoraTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				653EF50127A161FE00E87944 /* Debug */,
+				653EF50227A161FE00E87944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 653EF4EA27A161FC00E87944 /* Project object */;
+}
